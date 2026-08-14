@@ -1,0 +1,78 @@
+AI Cognitive Aid for Early Dementia & Memory Disorders
+1. Problem Statement
+
+Millions of people with early dementia, Alzheimer’s, or memory loss struggle with daily life:
+
+Forget appointments, medication, faces, or recent conversations.
+
+Caregivers can’t monitor them 24/7.
+
+Existing apps are either too complex or too generic (like reminders).
+
+👉 This results in loss of independence and emotional stress for both patients and families.
+
+2. Our Solution: GenAI “Memory Mirror”
+
+A personal AI that acts as a second memory for people with cognitive decline.
+
+Face Recognition + AI Context:
+
+Patient points phone camera at a person → AI whispers “This is your son, Rohan. Last time you spoke, he mentioned his new job.”
+
+Conversational Memory Aid:
+
+When the patient forgets → they can ask: “What did I eat today?” or “What did the doctor say yesterday?”
+
+AI recalls context from the memory log.
+
+Real-Time Guidance:
+
+If patient wanders outside, AI can guide them home (“Turn left in 200m”).
+
+Caregivers get auto-alerts if patient seems disoriented.
+
+Mood + Voice Tone Detection:
+
+AI detects stress/confusion in the patient’s voice and sends calming responses or alerts caregivers.
+
+3. Use of OpenAI APIs
+
+Whisper: Transcribe patient’s speech for clarity.
+
+GPT-4/5:
+
+Convert face recognition/voice notes → conversational summaries.
+
+Generate context reminders in simple, empathetic language.
+
+DALL·E: Generate memory cards with pictures + captions (“This is your granddaughter Priya. She visited last week.”).
+
+4. Feasibility & Tech Stack
+
+Frontend: Mobile app (React Native).
+
+Backend: Python (FastAPI/Flask).
+
+Database: Secure memory log (encrypted).
+
+Extra APIs: Face recognition (OpenCV + embeddings).
+
+Hackathon Demo Scope:
+
+Upload a few “faces” + memory snippets.
+
+Patient “meets” someone → app identifies face, recalls memory, and speaks reminder.
+
+Simulate a conversation where AI fills memory gaps naturally.
+
+5. Why This Idea is Rare & Judge-Capturing
+
+Not another chatbot / marketplace / food app. It’s a humanity-first innovation.
+
+Tackles a real, painful, global issue that is under-served.
+
+Has the wow demo moment: Judges see AI give back memory to someone who forgot.
+
+Uniqueness: Most hackathon teams will chase productivity/education/food delivery. Nobody will think of dementia aid.
+
+Potential future → medical AI assistant + healthcare tie-ups.
